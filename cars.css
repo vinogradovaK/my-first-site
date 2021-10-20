@@ -1,0 +1,142 @@
+﻿body {
+    background-image: url(images/back1.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+.info {
+    position: absolute;
+    width: 60em;
+    height: 10em;
+    margin-left: 5em;
+    margin-top: 0.1em;
+    background-color:rgba(255, 255, 255, 0.30)
+}
+
+.logo {
+    position: absolute;
+    width: 19em;
+    height: 13em;
+    margin-left: 25.5em;
+    margin-top: 10em;
+    background: url(images/logo.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    
+}
+
+.description {
+    position: absolute;
+    width: 5em;
+    height: 5em;
+    margin-left: 12em;
+    margin-top: 10em;
+}
+
+.characters {
+    position: absolute;
+    width: 7.5em;
+    height: 5em;
+    margin-left: 48em;
+    margin-top: 10em;
+}
+
+.zadania {
+    position: absolute;
+    width: 15em;
+    height: 5em;
+    margin-left: 12em;
+    margin-top: 25em;
+}
+
+.test {
+    position: absolute;
+    width: 25em;
+    height: 5em;
+    margin-left: 48em;
+    margin-top: 25em;
+}
+
+.circle {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    margin-top: 27em;
+    margin-left:0.5em;
+    background-color: purple;
+    border-radius: 100%;
+}
+
+.vin1 {
+    position: absolute;
+    width: 15px;
+    height: 20px;
+    margin-top: 28em;
+    margin-left: 2em;
+    background-color: darkseagreen;
+    border-radius: 100%;
+    transform: rotate(10deg);
+}
+
+.vin2 {
+    position: absolute;
+    width: 15px;
+    height: 20px;
+    margin-top: 28em;
+    margin-left: 3em;
+    background-color: darkseagreen;
+    border-radius: 100%;
+    transform: rotate(10deg);
+}
+
+.vin3 {
+    position: absolute;
+    width: 15px;
+    height: 20px;
+    margin-top: 28em;
+    margin-left: 4em;
+    background-color: darkseagreen;
+    border-radius: 100%;
+    transform: rotate(10deg);
+}
+
+.vin4 {
+    position: absolute;
+    width: 15px;
+    height: 20px;
+    margin-top: 29.5em;
+    margin-left: 2.5em;
+    background-color: darkseagreen;
+    border-radius: 100%;
+    transform: rotate(10deg);
+}
+
+.vin5 {
+    position: absolute;
+    width: 15px;
+    height: 20px;
+    margin-top: 29.5em;
+    margin-left: 3.5em;
+    background-color: darkseagreen;
+    border-radius: 100%;
+    transform: rotate(10deg);
+}
+
+.vin6 {
+    position: absolute;
+    width: 15px;
+    height: 20px;
+    margin-top: 31em;
+    margin-left: 3em;
+    background-color: darkseagreen;
+    border-radius: 100%;
+    transform: rotate(10deg);
+}
+
+
+
+
+
