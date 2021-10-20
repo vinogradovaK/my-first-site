@@ -1,0 +1,96 @@
+    body {
+    background-color: hotpink;
+    font-size: 15px;
+}
+.box {
+    width: 200px;
+    height: 200px;
+    margin: 200px;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+}
+
+.boy {
+    position: absolute;
+    width: 160px;
+    height: 190px;
+    background: url(images/boy1.png);
+    background-repeat: no-repeat;
+    align-self: flex-start;
+    transition: 0.1s linear;
+}
+   .box:hover .boy{
+    background: url(images/boy2.png);
+    background-repeat: no-repeat;
+
+   }
+   .box:active .boy{
+    background: url(images/boy3.png);
+    background-repeat: no-repeat;
+    animation: shake-circle-01 .4s infinite alternate;
+   }
+
+   @keyframes shake-circle-01 {
+    0% { transform: translate(-5px, 0px); }
+    100% { transform: translate(5px, 0px); }
+  }
+
+  .text1, .text2{
+    position: absolute;
+    width: 9em;
+    height: 1em;
+    font-family: sans-serif;
+    font-size: 1em;
+    font-weight: bold;
+    color: grey;
+    margin-left: 100px;
+    display: none;
+  }
+  .box:hover .text1{
+    display: block;
+  }
+  .box:active .text2{
+    display: block;
+  }
+  .box:active .text1{
+    display: none;
+  }
+
+.brick {
+    position: absolute;
+    background: url(images/brick.png);
+    background-repeat: no-repeat;
+    width: 3em;
+    height: 4em;
+    margin-top: 10em;
+    opacity: 0%;
+    align-self: flex-end;
+    transition: 0.3s linear;
+}
+  .box:hover .brick{
+    opacity: 100%;
+    }
+  
+  .box:active .brick{
+    opacity: 100%;
+    animation: spin 1s linear;
+  }
+
+  @keyframes spin {
+    0% {
+      transform: translate(0, 0) rotate(0deg);
+    }
+    25% {
+      transform: translate(23em, -23rem) rotate(180deg);
+    }
+    50% {
+      transform: translate(28em, -28em) rotate(360deg);
+    }
+    75% {
+      transform: translate(33em, -33em) rotate(540deg);
+    }
+    100% {
+      transform: translate(38em, -38em) rotate(720deg);
+    }
+  }
