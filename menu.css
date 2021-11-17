@@ -1,0 +1,36 @@
+﻿body {
+    background-image: url(images/back1.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.box1 {
+    position: absolute;
+    width: 1200px;
+    height: 150px;
+    margin: 20px;
+    background-color: rgba(255, 255, 255, 0.60);
+    outline: 2px solid darkred;
+}
+
+.box2 {
+    position: absolute;
+    width: 400px;
+    height: 500px;
+    margin-left: 20px;
+    margin-top: 200px;
+    background-color: rgba(255, 255, 255, 0.60);
+    outline: 2px solid #000000;
+}
+
+.box3 {
+    position: absolute;
+    width: 770px;
+    height: 500px;
+    margin-left: 450px;
+    margin-top: 200px;
+    background-color: rgba(255, 255, 255, 0.60);
+    outline: 2px solid #000000;
+}
